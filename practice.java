@@ -11,14 +11,14 @@ public class practice {
         return product;
     }
 
-    public static int DividingNumbers(int a, int b){
-        int quotient = a/b;
+    public static int DividingNumbers(int a, int b) {
+        int quotient = a / b;
         System.out.println("The quotient is " + quotient);
         return quotient;
     }
 
-    public static int NegativeMachine(int a){
-        int Negative = a*(-1);
+    public static int NegativeMachine(int a) {
+        int Negative = a * (-1);
         System.out.println("The Negative Machine Deams it as " + Negative);
         return Negative;
     }
@@ -27,7 +27,7 @@ public class practice {
         practice.AddingNumbers(4, 4);
         practice.MultiplyingNumbers(200, 423);
         practice.DividingNumbers(10, 5);
-        practice.NegativeMachine(102);
+        practice.NegativeMachine(16);
     }
 
 }
